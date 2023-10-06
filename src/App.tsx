@@ -26,8 +26,6 @@ const intitalTasks = [
   },
 ];
 function App() {
-  // const [count-, setCount] = useState(0)
-
   const [tasks, setTasks] = useState<Task[]>(intitalTasks);
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>, value: string) => {
